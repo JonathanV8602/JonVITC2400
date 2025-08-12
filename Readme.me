@@ -1,0 +1,52 @@
+# BathroomMaps
+
+BathroomMaps is an Android app that helps users locate public restrooms, rate cleanliness, and provide operational hours. It is built using **Kotlin** in **Android Studio** with **Firebase Authentication**, **Firestore**, and **Firebase Storage** integration.
+
+
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+
+
+## About the Project
+Finding public bathrooms can be challenging in many cities. BathroomMaps allows users to:
+- Search for public restrooms
+- View cleanliness ratings and operating hours
+- Add, edit, and delete bathroom entries
+- Upload photos for reference
+
+The app ensures live updates from Firestore, so changes appear instantly for all users.
+
+## Features
+- **Firebase Authentication** (login, register, password change)
+- **Firestore Integration** with live updates (`addSnapshotListener`)
+- **AddBathroomActivity** to create new entries with:
+  - Title & description
+  - Optional hours
+  - Cleanliness rating
+  - Optional photo upload
+- **Edit & Delete Bathrooms**
+- XML-based UI for login/register, with Jetpack Compose for bathroom listings
+
+
+
+## Technologies Used
+- **Language:** Kotlin
+- **IDE:** Android Studio
+- **UI:** XML Layouts + Jetpack Compose
+- **Backend:** Firebase Authentication, Firestore, Firebase Storage
+- **Version Control:** Git & GitHub
+
+## Where I am at
+I am currently done with the registration side and the login format, I am also done collecting data from soon to be users installing the app. The options are currently "Address", "City" , "Description", and "hours".
+which are optional. The only thing that is left for me to do is to put a option to add pictures, add a filter setting on it for users
+to filter out certain city's, and for users to see other people testimonies with the bathroom experience. 
+
